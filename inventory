@@ -7,12 +7,12 @@
 ###########################################################################
 ### Ansible Vars
 ###########################################################################
-timeout = 60
-ansible_user = ec2-user
-ansible_become = yes
-forks = 10
-stdout_callback = skippy
-log_path = /var/log/ansible.log
+timeout=60
+ansible_user=ec2-user
+ansible_become=yes
+forks=10
+stdout_callback=skippy
+log_path=/var/log/ansible.log
 
 ###########################################################################
 ### Openshift Basic Vars
